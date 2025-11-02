@@ -147,6 +147,8 @@ namespace p2
 
                 while (!string.IsNullOrEmpty(working))
                 {
+
+
                     if (working.StartsWith(\"#\"))
                     {
                         var next = working.IndexOfAny(new[] { '.' });
